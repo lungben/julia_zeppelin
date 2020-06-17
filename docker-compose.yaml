@@ -1,6 +1,13 @@
 version: '3'
 services:
   zeppelin:
-    image: zeppelin_julia:latest
+    build: .
+    image: julia_zeppelin:latest
     ports:
       - 8080:8080
+    volumes: 
+      - ./logs:/logs
+      - ./notebook:/notebook
+    environment: 
+      - ZEPPELIN_NOTEBOOK_DIR=/notebook
+      - ZEPPELIN_LOG_DIR=/logs

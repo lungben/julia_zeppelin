@@ -33,7 +33,7 @@ RUN mkdir /etc/julia && \
 
 # Add Julia packages. 
 
-RUN julia -e "using Pkg; pkg\"up\"; pkg\"add IJulia DataFrames CSV BenchmarkTools\"; pkg\"precompile\"" &&\
+RUN julia -e "using Pkg; pkg\"up\"; pkg\"add IJulia DataFrames CSV BenchmarkTools\"; pkg\"precompile\"" && \
     # move kernelspec out of home \
     mv "${HOME}/.local/share/jupyter/kernels/julia"* "${CONDA_DIR}/share/jupyter/kernels/" && \
     chmod -R a+rx "${CONDA_DIR}" && \
