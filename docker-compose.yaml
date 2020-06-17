@@ -1,0 +1,6 @@
+version: '3'
+services:
+  zeppelin:
+    image: zeppelin_julia:latest
+    ports:
+      - 8080:8080
