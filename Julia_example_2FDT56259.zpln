@@ -1,0 +1,123 @@
+{
+  "paragraphs": [
+    {
+      "text": "%jupyter(kernel\u003djulia-1.4)\nprintln(\"Hello World!\")",
+      "user": "anonymous",
+      "dateUpdated": "2020-06-17 09:34:53.383",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/text",
+        "kernel": "julia-1.4"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello World!\n"
+          }
+        ]
+      },
+      "apps": [],
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1592386466532_-1524132087",
+      "id": "paragraph_1592386466532_-1524132087",
+      "dateCreated": "2020-06-17 09:34:26.532",
+      "dateStarted": "2020-06-17 09:34:53.414",
+      "dateFinished": "2020-06-17 09:34:53.691",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%jupyter(kernel\u003djulia-1.4)\nThreads.@threads for i \u003d 1:10\n    print(\"i\u003d$i, \")\nend",
+      "user": "anonymous",
+      "dateUpdated": "2020-06-17 09:33:17.967",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/text"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "i\u003d9, i\u003d1, i\u003d7, i\u003d4, i\u003d8, i\u003d5, i\u003d10, i\u003d6, i\u003d2, i\u003d3, "
+          }
+        ]
+      },
+      "apps": [],
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1592386393239_-401986119",
+      "id": "paragraph_1592386393239_-401986119",
+      "dateCreated": "2020-06-17 09:33:13.239",
+      "dateStarted": "2020-06-17 09:33:17.998",
+      "dateFinished": "2020-06-17 09:33:29.627",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%jupyter(kernel\u003djulia-1.4)\n",
+      "user": "anonymous",
+      "dateUpdated": "2020-06-17 09:35:21.641",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/text",
+        "kernel": "julia-1.4"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1592386397994_-614985889",
+      "id": "paragraph_1592386397994_-614985889",
+      "dateCreated": "2020-06-17 09:33:17.994",
+      "status": "READY"
+    }
+  ],
+  "name": "Julia_example",
+  "id": "2FDT56259",
+  "defaultInterpreterGroup": "jupyter",
+  "version": "0.9.0-preview1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
